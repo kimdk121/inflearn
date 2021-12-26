@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MemoryMemberRepositoryTest" project="hello" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="hello.hellospring.repository.MemoryMemberRepositoryTest" time="0.049" displayname="MemoryMemberRepositoryTest" uniqueid="[engine:junit-jupiter]/[class:hello.hellospring.repository.MemoryMemberRepositoryTest]">
+    <testcase name="findByName" classname="hello.hellospring.repository.MemoryMemberRepositoryTest" time="0.048" displayname="findByName()" uniqueid="[engine:junit-jupiter]/[class:hello.hellospring.repository.MemoryMemberRepositoryTest]/[method:findByName()]"/>
+    <testcase name="save" classname="hello.hellospring.repository.MemoryMemberRepositoryTest" time="0.0" displayname="save()" uniqueid="[engine:junit-jupiter]/[class:hello.hellospring.repository.MemoryMemberRepositoryTest]/[method:save()]"/>
+  </testsuite>
+</testrun>
