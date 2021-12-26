@@ -1,0 +1,22 @@
+package hello.hellospring.controller;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class HelloController {
+	
+	@GetMapping("hello")
+	public String hello(Model model) {
+		Map<String, Object> a = new HashMap<String, Object>();
+		a.put("babo", "DDong");
+		model.addAttribute("data",a);
+		
+		return "hello";
+	}
+
+}
